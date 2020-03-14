@@ -7,8 +7,6 @@ const urlBase = 'https://randomuser.me/api/?results=10';
 let users = null;
 const friends = [];
 
-//DO YOUR MAGIC!
-
 function connectToApi() {
     fetch(urlBase)
     .then (response => response.json())

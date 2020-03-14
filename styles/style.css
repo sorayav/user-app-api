@@ -4,7 +4,7 @@ body{
 
 h1 {
   text-align: center;
-  margin: 3% 0;
+  margin: 2% 0;
   font-size: 40px;
   color: gray;
 }
@@ -14,16 +14,17 @@ h1 {
   flex-wrap: wrap;
   max-width: 80vw;
   margin: auto;
-  padding: 0;
   list-style-type: none;
   justify-content: center;
   box-shadow: 1px 1px 10px lightgray;
-  padding: 3%;
 }
 
 .users-list li span{
   display: block;
-  margin-top: 2%;
+  margin-top: 6%;
+  padding-top: 3%;
+  text-align: center;
+  
 }
 
 .users-list li img{
@@ -33,12 +34,18 @@ h1 {
 }
 
 .users-list li img:hover {
-  filter: drop-shadow(2px 2px 2px black);
+  filter: drop-shadow(2px 2px 2px gray);
 }
 
 .users-list__item-info{
   width: 200px;
-  padding: 20px;
+  padding: 40px 20px;
+}
+
+.users-list__li {
+  padding-bottom: 2%;
+  margin: 0 1% 0 1%;
+  border-bottom: 1px dotted gray;
 }
 
 .btn {
@@ -46,12 +53,14 @@ h1 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-top: -20px;
 }
 
 .user__btn {
   width: 100px;
   height: 30px;
   margin: 1%;
+  padding: 0;
 }
 
 .users-list__item--add {
