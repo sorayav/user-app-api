@@ -9,7 +9,6 @@ h1 {
   color: gray;
 }
 
-
 .users-list {
   display: flex;
   flex-wrap: wrap;
@@ -18,8 +17,6 @@ h1 {
   padding: 0;
   list-style-type: none;
   justify-content: center;
-  /* border-left: groove 1px red;
-  border-right: groove 1px red; */
   box-shadow: 1px 1px 10px lightgray;
   padding: 3%;
 }
@@ -36,7 +33,6 @@ h1 {
 }
 
 .users-list li img:hover {
-  /* filter: grayscale(100%); */
   filter: drop-shadow(2px 2px 2px black);
 }
 

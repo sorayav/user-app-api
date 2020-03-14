@@ -48,6 +48,7 @@ function saveFriends(evt) {
     if (friends.indexOf(index) === -1) {
         friends.push(index);
         alert('Añadido a amigos.');
+        
     } else {
         alert('Este usuario ya es tu amigo.');
     }
@@ -56,7 +57,7 @@ function saveFriends(evt) {
 function removeFriends(evt) {
     const indexRem = evt.currentTarget.id;
     if (friends.indexOf(indexRem) !== -1) {
-        friends.pop();
+        friends.splice(0,1);
         alert('Eliminado de amigos.');
     } else {
         alert('Este usuario no es tu amigo.');
