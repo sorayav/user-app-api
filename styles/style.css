@@ -7,16 +7,29 @@ h1 {
   margin: 2% 0;
   font-size: 40px;
   color: gray;
+  
 }
 
 .users-list {
   display: flex;
   flex-wrap: wrap;
   max-width: 80vw;
-  margin: auto;
+  margin: 30px auto;
   list-style-type: none;
   justify-content: center;
   box-shadow: 1px 1px 10px lightgray;
+  padding-bottom: 30px;
+  background-color: white;
+}
+
+@media (min-width: 1200px) {
+  .users-list {
+    margin: 10px auto;
+  }
+}
+
+ul {
+  padding-inline-start: 0;
 }
 
 .users-list li span{
